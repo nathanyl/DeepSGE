@@ -10,7 +10,24 @@ Download DeepSGE by
 ```
 git clone https://github.com/nathanyl/DeepSGE
 ```
-
+## Run scRGCL model
+```
+python train.py 
+```
+```
+ parameters:  
+ - `n_genes`: int.  
+  Amount of genes.
+ - `heads`: int, default `[16, 8]`.  
+  The number of heads of the Vit module and the number of heads of the GATv2 module.
+ - `n_layers`: int, default `4`.  
+  Number of Transformer blocks.
+ arguments:
+ - `test_sample_ID`: the test sample id of the validation set for cross-validation
+ - `vit_dataset`: how the dataset is loaded
+ - `modelsave_address`: the storage address of the training model
+ - `dataset_name`: the name of current using dataset      
+```
 ## Datasets
 The mouse olfactory bulb dataset is available for download at:
 https://www.spatialresearch.org/resources-published-datasets/doi-10-1126science-aaf2403/
