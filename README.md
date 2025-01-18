@@ -24,4 +24,3 @@ The human HER2-positive breast cancer datasets are available
 The human dorsolateral prefrontal cortex dataset can be found
  at: http://research.libd.org/spatialLIBD/
  
-expr.zip:Please check this github
