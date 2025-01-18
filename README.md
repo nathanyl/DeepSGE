@@ -10,7 +10,7 @@ Download DeepSGE by
 ```
 git clone https://github.com/nathanyl/DeepSGE
 ```
-## Run scRGCL model
+## Run DeepSGE model
 ```
 python train.py 
 ```
